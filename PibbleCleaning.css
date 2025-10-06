@@ -10,7 +10,7 @@
     z-index: 1;
 }
 .soap {
-    position: absolute;
+    position: flex;
     width: 80px;
     height: 80px;
     cursor: grab;
@@ -25,14 +25,25 @@
     z-index: 2;
 }
 
-.utensils {
-    position: fixed;
-    bottom: 20px;
+.bubble {
+    position: absolute;
+    top: 50%;
     left: 50%;
-    display: flex;
-    gap: 20px;
-    transform: translateX(-50%);
-    z-index: 3;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 1;
+}
+
+.utensils {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        display: flex;
+        gap: 50px;
+        transform: translateX(-50%);
+        z-index: 3;
+        
+    
 }
 
 .utensils img {
