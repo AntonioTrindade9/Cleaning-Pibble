@@ -5,7 +5,7 @@
 {
     "name": "Launch NomeDoProjeto",
     "request": "launch",
-    "type": "chrome",
+    "type": "Firefox",
     "file": "${workspaceFolder}/index.html",
     "webRoot": "${workspaceFolder}",
     "configurations": [
